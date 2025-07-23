@@ -6,7 +6,6 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: #F5F8FF;
-    font-size: 1.4rem;
 }
 
 h1{
@@ -28,6 +27,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.25rem;
+}
+
+.logo-container{
+    width: 15%;
+}
+
+.logo-container img{
+    width: 100%;
+    height: auto;
 }
 
 header ul{
@@ -56,9 +65,28 @@ header li a:hover{
 
 
 @media screen and (max-width: 640px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
     main{
         width: 90%;
     }
+
+    header{
+        font-size: 1rem;
+    }
+
+    .logo-container{
+        width: 15%;
+
+    }
+
+    .logo-container img{
+        width: 100%;
+        height: auto;
+    }
+
     .list-item{
         display: none;
     }
