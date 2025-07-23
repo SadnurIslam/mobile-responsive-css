@@ -23,6 +23,8 @@ main{
     margin: 30px auto 120px auto;
 }
 
+/* header section  */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -63,6 +65,44 @@ header li a:hover{
     font-weight: 600;
 }
 
+/* banner section */
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 80px;
+    margin: 120px auto;
+}
+
+.banner-section .section-text{
+    width: 50%;
+}
+
+.banner-section .section-img{
+    width: 50%;
+}
+
+.banner-section img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-section h1{
+    font-size: 4rem;
+}
+
+.banner-section h1 span{
+    color: rgba(233, 90, 8, 1);
+}
+
+.banner-section p{
+    font-size: 1.4rem;
+    opacity: 0.5;
+}
+
+
+/* mobile responsive design */
 
 @media screen and (max-width: 640px) {
     h1{
@@ -71,6 +111,7 @@ header li a:hover{
 
     main{
         width: 90%;
+        margin: 15px auto 40px auto;
     }
 
     header{
@@ -78,7 +119,7 @@ header li a:hover{
     }
 
     .logo-container{
-        width: 15%;
+        width: 20%;
 
     }
 
@@ -90,4 +131,34 @@ header li a:hover{
     .list-item{
         display: none;
     }
+
+    /* banner section  */
+
+    .banner-section{
+        flex-direction: column-reverse;
+        margin: 30px auto 65px auto;
+    }
+    
+    .banner-section .section-text{
+        width: 100%;
+    }
+    
+    .banner-section .section-img{
+        width: 100%;
+    }
+    
+    .banner-section img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    
+    .banner-section h1{
+        font-size: 1.5rem;
+    }
+    
+    .banner-section p{
+        font-size: 1rem;
+    }
+    
 }
