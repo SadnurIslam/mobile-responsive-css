@@ -175,6 +175,10 @@ header li a:hover{
     position: relative;
 }
 
+.plant-lover-section .section-img img{
+    width: 100%;
+}
+
 .plant-lover-section .badge{
     width: 260px; 
     height: 260px;
@@ -191,13 +195,19 @@ header li a:hover{
 }
 
 .plant-lover-section .section-text{
-    padding: 20px 0 10px 20px;
+    width: 50%;
+}
+
+.plant-lover-section h1{
+    margin-left: 30px;
+    padding: 30px 10px 0 0;
 }
 
 .plant-lover-section ul{
     margin-left: 30px;
     opacity: 0.5;
     font-size: 1.4rem;
+    padding: 0 10px 0 30px;
 }
 
 .plant-lover-section li{
@@ -306,4 +316,19 @@ header li a:hover{
         margin-left: 15px;
         font-size: 1rem;
     }
+
+    .plant-lover-section .section-text{
+        width: 100%;
+    }
+    
+    .plant-lover-section h1{
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .plant-lover-section ul{
+        margin-left: 20px;
+        padding: 0;
+    }
+    
 }
