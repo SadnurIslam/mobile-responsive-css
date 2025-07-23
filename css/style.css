@@ -14,9 +14,18 @@ h1{
     font-weight: 700;
 }
 
-.dark-half{
-    color: rgba(0, 0, 0, 0.5);
+p{
+    font-size: 1.4rem;
 }
+
+.btn-primary{
+    background-color: #E95A08;
+    padding: 15px 0;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
 
 main{
     width: 80%;
@@ -92,14 +101,67 @@ header li a:hover{
     font-size: 4rem;
 }
 
+.banner-section p{
+    opacity: 0.5;
+}
+
 .banner-section h1 span{
     color: rgba(233, 90, 8, 1);
 }
 
-.banner-section p{
-    font-size: 1.4rem;
+
+/* plant section  */
+.plant-section .section-title{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.plant-section span{
+    color: rgba(233, 90, 8, 1);
+}
+
+.plant-section .section-title p{
     opacity: 0.5;
 }
+
+.plant-section .section-title h1{
+    margin-bottom: 12px;
+}
+
+.plant-section .card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.plant-section img{
+    width: 100%;
+    height: auto;
+}
+
+.plant-section .card-body{
+    margin: 20px auto;
+    text-align: center;
+    color: #111111;
+}
+
+.plant-section .card-body .name{
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.plant-section .card-body .price{
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.plant-section button{
+    width: 100%;
+}
+
 
 
 /* mobile responsive design */
@@ -109,6 +171,15 @@ header li a:hover{
         font-size: 1.5rem;
     }
 
+    p{
+        font-size: 1rem;
+    }
+
+    .btn-primary{
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: 1rem;
+    } 
     main{
         width: 90%;
         margin: 15px auto 40px auto;
@@ -159,6 +230,16 @@ header li a:hover{
     
     .banner-section p{
         font-size: 1rem;
+    }
+
+    /* plant section  */
+    .plant-section .section-title{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .plant-section .card-section{
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
